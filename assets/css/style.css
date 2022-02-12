@@ -11,7 +11,7 @@
     font-size: x-large;
 }
 
-#logo, a {
+#logo, a, h3 {
     font-size: 20px;
     font-family: Gideon Roman, sans-serif;
     color: #633a53d7;
@@ -38,12 +38,13 @@ a {
 h1 {
     border-bottom: 1px solid #633a53d7;
 }
+
 a:hover {
     text-decoration: underline;
-    color: #3edac5d7; 
+    color: #3edac5d7;
 }
 
-#welcome-picture-with-baloons > img {
+#welcome-picture-with-baloons>img {
     position: relative;
     z-index: -1;
     width: 100%;
@@ -120,21 +121,59 @@ a:hover {
         transform: scale(1.1);
     }
 }
+
+#invitation-outer {
+    border: 3px solid goldenrod;
+    width: 40%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -21%;
+    width: 50%;
+    overflow: hidden;
+}
+
+#invitation-image {
+    border: 3px solid goldenrod;
+    height: 400px;
+    width: 100%;
+    background: url('../images/main-index-photos/invitation.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    animation-name: invitation-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes invitation-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
 #party-boxes {
     display: flex;
     justify-content: center;
 }
 
-#party-boxes > div {
-    margin-top: 30px;;
+#party-boxes>div {
+    margin-top: 30px;
+    ;
 }
 
-#party-boxes > div:hover{
+#party-boxes>div:hover {
     transform: scale(1.1);
     border: 1px solid #3edac5d7;
 }
 
-#party-boxes span:hover{
+#party-boxes span:hover {
     text-decoration: underline;
     color: #633a53d7;
 }
@@ -145,8 +184,8 @@ a:hover {
     margin: 0 200px;
     font-family: Gideon Roman, sans-serif;
     font-size: x-large;
-    color:#3edac5d7;
-    line-height: 60px; 
+    color: #3edac5d7;
+    line-height: 75px;
 }
 
 #parties-outside {
@@ -157,7 +196,7 @@ a:hover {
     background-position: center;
 }
 
-#indoor-parties{
+#indoor-parties {
     margin-bottom: 80px;
     height: 350px;
     background-image: url("/assets/images/main-index-photos/baloons_inside.jpg");
@@ -187,14 +226,76 @@ footer {
     color: #633a53d7;
     padding: 40px;
 }
-.social-networks i:hover{
-    color:#3edac5d7;
+
+.social-networks i:hover {
+    color: #3edac5d7;
 }
 
 #images {
-        clear: both;
-        line-height: 0;
-        column-count: 4;
-        column-gap: 0;
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
 }
-    
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+form {
+    width:20%;
+    padding: 20px;
+    border: 2px solid #945b7ed7;
+    margin-left: 500px;
+    margin-top: -50px;
+}
+.dropbtn {
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 60px;
+    width: 200px;
+    background-color: #3edac5d7;
+    color: #945b7ed7;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+  }
+  
+  .dropdown {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    width: 200%;
+    margin-left: 40px;
+    float: right;
+    display: none;
+    position: absolute;
+    background-color: #3edac5d7;
+    min-width: 50px;
+    min-height: 20px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #3edac5d7;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #945b7ed7;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+      background-color: #3edac5d7;
+      border-radius: 5px;
+    }
+
+  #theme {
+    min-width: 160px;
+  }

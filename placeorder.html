@@ -21,8 +21,8 @@
         <img src="assets/images/main-index-photos/welcome.png" alt="Welcoming picture with baloons">
     </span>
 
-    <section id="events-outer">
-        <div id="events-image"></div>
+    <section id="invitation-outer">
+        <div id="invitation-image"></div>
     </section>
 
     <header>
@@ -35,10 +35,10 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="gallery.html" class="active">Gallery</a>
+                    <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="placeorder.html">Place Order</a>
+                    <a href="signup.html"  class="active">Place Order</a>
                 </li>
                 <li>
                     <a href="#">Feedback</a>
@@ -47,17 +47,52 @@
         </nav>
     </header>
 
-    <div id="images">
-        <img src="assets/images/gallery-photos/gallery.webp" alt="">
-        <img src="assets/images/gallery-photos/gallery0.jpg" alt="">
-        <img src="assets/images/gallery-photos/gallery1.webp" alt="">
-        <img src="assets/images/gallery-photos/gallery2.webp" alt="">
-        <img src="assets/images/gallery-photos/gallery3.webp" alt="">
-        <img src="assets/images/gallery-photos/gallery4.webp" alt="">
-        <img src="assets/images/gallery-photos/gallery5.webp" alt="">
-        <img src="assets/images/gallery-photos/gallery7.jpg" alt="">
-        <img src="assets/images/gallery-photos/gallery8.jpg" alt="">
+    <aside>
+     <h3>Before you procede links for themes:</h3>
+      <div class="dropdown">
+        <button class="dropbtn">Theme:</button>
+        <div class="dropdown-content">
+          <a href="#">Pirates</a>
+          <a href="#">Frozen</a>
+          <a href="#">Circus Soiree</a>
+          <a href="#">Butterflies</a>
+          <a href="#">Talent Show</a>
+          <a href="#">Dinosaurs</a>
+        </div>
+      </div>
+    </aside> 
+
+    <form action="" method="POST">
+    <div id="many_kids" required>
+        <p>How many kids are you planning to invite, around:</p>
+        <input type="radio" id="5-10" name="many_kids" value="5-10" required>
+        <label for="5-8">Between 5 and 10</label><br>
+
+        <input type="radio" id="10-15" name="many_kids" value="10-15">
+        <label for="10-15">Between 10 and 15</label><br>
+
+        <input type="radio" id="15-20" name="many_kids" value="15-20">
+        <label for="15-20">Between 15 and 20</label><br>
+
+        <input type="radio" id="20-30" name="many_kids" value="20-30">
+        <label for="20-30">Between 20 and 30</label>
+        <p><sub>*If you are planing party for more then 30 kids: </sub><a href="#"><sub><em>Contact Us</em></sub></a></p>
     </div>
+
+   
+
+      <label for="themes">Choose a theme:</label><br>
+        <select name="theme" id="theme">
+            <opion value="pirates">Pirates</opion>
+            <opion value="frozen">Frozen</opion>
+            <opion value="clown">Circus Soiree</opion>
+            <opion value="butterflies">Butterflies</opion>
+            <opion value="talent">Talent Show Party</opion>
+            <opion value="dinosaur">Dinosaur Jam</opion>
+        </select>
+    
+</div>
+    </form>
 
     <footer>
         <ul class="social-networks">
