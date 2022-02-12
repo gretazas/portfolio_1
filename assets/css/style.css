@@ -5,29 +5,41 @@
     padding: 0;
     border: none;
 }
-a {
+
+#menu {
+    margin-left: 47%;
+    font-size: x-large;
+}
+
+#logo, a {
+    font-size: 20px;
     font-family: Gideon Roman, sans-serif;
-    color: #9e2f74d7;
-    margin: 20px;
+    color: #633a53d7;
+    margin: 10px;
     line-height: 60px;
 }
+
 li {
     margin: 20px;
 }
 
-#menu {
-    margin-left: 55%;
-    font-size: x-large;
-}
-
-header, ul{
+header,
+ul {
     display: flex;
     list-style-type: none;
-    margin: 0 40px;
+    margin: 0;
 }
- h1, a{
-     text-decoration: none;
- }
+
+h1,
+a {
+    text-decoration: none;
+}
+ 
+a:hover {
+    text-decoration: underline;
+    color: #3edac5d7; 
+}
+
 #welcome-picture-with-baloons > img {
     position: relative;
     z-index: -1;
@@ -51,7 +63,7 @@ header, ul{
     height: 400px;
     width: 100%;
     background: url('../images/main-index-photos/celebration.webp') no-repeat center center;
-    
+
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -59,9 +71,114 @@ header, ul{
 }
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
+}
+
+#events-outer {
+    width: 40%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -21%;
+    width: 50%;
+    overflow: hidden;
+}
+
+#events-image {
+    height: 400px;
+    width: 100%;
+    background: url('../images/main-index-photos/events.webp') no-repeat center center;
+
+
+    animation-name: events-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes events-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+#party-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+#party-boxes > div {
+    margin-top: 30px;;
+}
+
+#party-boxes > div:hover{
+    transform: scale(1.1);
+    border: 1px solid #3edac5d7;
+}
+
+#party-boxes span:hover{
+    text-decoration: underline;
+    color: #633a53d7;
+}
+
+
+#party-boxes span {
+    padding: 5px;
+    margin: 0 200px;
+    font-family: Gideon Roman, sans-serif;
+    font-size: x-large;
+    color:#3edac5d7;
+    line-height: 60px; 
+}
+
+#parties-outside {
+    margin-bottom: 80px;
+    height: 350px;
+    background-image: url("/assets/images/main-index-photos/ballons_outside.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#indoor-parties{
+    margin-bottom: 80px;
+    height: 350px;
+    background-image: url("/assets/images/main-index-photos/baloons_inside.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#house-parties {
+    margin-bottom: 80px;
+    height: 350px;
+    background-image: url("/assets/images/main-index-photos/sunset_baloons.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks i {
+    font-size: 130%;
+    color: #633a53d7;
+    padding: 40px;
+}
+.social-networks i:hover{
+    color:#3edac5d7;
+}
+    
