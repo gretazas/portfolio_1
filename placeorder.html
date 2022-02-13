@@ -47,10 +47,13 @@
         </nav>
     </header>
 
+    <h2 class="messages">Welcome to the part when you are ready to place your order!</h2>
+    <h2 class="messages">In order to do so you need to fill the form bellow.</h2>
+    <h2 class="messages">Before you proceed please do not hesitate to browse links provided on the left in order to choose your theme for the party.</h2>
     <aside>
-     <h3>Before you procede links for themes:</h3>
+      <h3>Links to help you choose your party theme:</h3>
       <div class="dropdown">
-        <button class="dropbtn">Theme:</button>
+        <button class="dropbtn">List of themes:</button>
         <div class="dropdown-content">
           <a href="gallery_pirates.html" target="_blank">Pirates</a>
           <a href="gallery_frozen.html" target="_blank">Frozen</a>
@@ -63,10 +66,29 @@
     </aside> 
 
     <form action="" method="POST">
+        <h2>Place an Order</h2>
+        <div>
+			<label for="name">Your name</label><br>
+			<input id="name" type="text" name="first_name" placeholder="Your name">
+		</div>
+        <div>
+			<label for="surname">Your surname</label><br>
+			<input id="surname" type="text" name="surname" placeholder="Your surname">
+		</div>
+        <div>
+			<label for="childsname">Childs name</label><br>
+			<input id="childsname" type="text" name="childsname" placeholder="Childs name">
+		</div>
+		<div>
+			<label for="email">Your email</label>
+			<input id="email" type="email" name="email" placeholder="Your email">
+		</div>
+
+
     <div id="many_kids" required>
         <p>How many kids are you planning to invite, around:</p>
         <input type="radio" id="5-10" name="many_kids" value="5-10" required>
-        <label for="5-8">Between 5 and 10</label><br>
+        <label for="5-8">Between 5 and 10 &nbsp</label><br>
 
         <input type="radio" id="10-15" name="many_kids" value="10-15">
         <label for="10-15">Between 10 and 15</label><br>
@@ -81,19 +103,31 @@
 
    
 
-      <label for="themes">Choose a theme:</label><br>
-        <select name="theme" id="theme">
-            <opion value="pirates">Pirates</opion>
-            <opion value="frozen">Frozen</opion>
-            <opion value="clown">Circus Soiree</opion>
-            <opion value="butterflies">Butterflies</opion>
-            <opion value="talent">Talent Show Party</opion>
-            <opion value="dinosaur">Dinosaur Jam</opion>
-        </select>
-    
+      <label for="themes"></label><br>
+        <select name="theme" id="theme" required>
+            <option value="pirates">Choose a theme:</option>
+            <option value="pirates">Pirates</option>
+            <option value="frozen">Frozen</option>
+            <option value="clown">Circus Soiree</option>
+            <option value="butterflies">Butterflies</option>
+            <option value="talent">Talent Show Party</option>
+            <option value="dinosaur">Dinosaur Jam</option> 
+        </select><br>
+
+        <label for="color">Your childs favorite color:</label>
+        <input type="color" id="color" name="color" value="#00ffff" placeholder="Your childs favorite color"/>
+        <br/>
+
+        <label for="number">Your childs age:</label>
+        <input type="number" id="number" name="number" placeholder="Age" step="2" min="18" max="99"/>
+        <br/> 
+
+    <input type="submit" id ="submit" value="Submit">
+    <input type="reset" id="reset" value="Reset">
 </div>
     </form>
 
+    <h2 class="messages">Thank you from all our team for choosing us. Enjoy your party!</h2>
     <footer>
         <ul class="social-networks">
             <li>
