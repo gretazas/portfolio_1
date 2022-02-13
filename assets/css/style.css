@@ -158,6 +158,78 @@ a:hover {
     }
 }
 
+#nature-outer {
+    border: 3px solid goldenrod;
+    width: 40%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -21%;
+    width: 50%;
+    overflow: hidden;
+}
+
+#nature-image {
+    border: 3px solid goldenrod;
+    height: 400px;
+    width: 100%;
+    background: url('../images/main-index-photos/nature.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    animation-name: nature-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nature-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#home-outer {
+    border: 3px solid goldenrod;
+    width: 40%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -21%;
+    width: 50%;
+    overflow: hidden;
+}
+
+#home-image {
+    border: 3px solid goldenrod;
+    height: 400px;
+    width: 100%;
+    background: url('../images/main-index-photos/home_party.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    animation-name: home-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes home-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
 #party-boxes {
     display: flex;
     justify-content: center;
@@ -168,7 +240,17 @@ a:hover {
     ;
 }
 
-#party-boxes>div:hover {
+#parties-outside:hover {
+    transform: scale(1.1);
+    border: 1px solid #3edac5d7;
+}
+
+#indoor-parties:hover {
+    transform: scale(1.1);
+    border: 1px solid #3edac5d7;
+}
+
+#house-parties:hover {
     transform: scale(1.1);
     border: 1px solid #3edac5d7;
 }
@@ -306,4 +388,5 @@ button{
 
   #theme {
     min-width: 160px;
+    height: 50px;
   }
