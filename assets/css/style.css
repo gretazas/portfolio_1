@@ -6,6 +6,13 @@
     border: none;
 }
 
+p{
+    font-size: 20px;
+    font-family: Gideon Roman, sans-serif;
+    color: #633a53d7;
+    margin: 60px;
+    line-height: 40px;
+}
 #menu {
     margin-left: 47%;
     font-size: x-large;
@@ -422,6 +429,16 @@ form>input {}
     border-radius: 5px;
 }
 
+table, th, td {
+    border: 1px dashed #945b7ed7;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+}
 @media screen and (max-width: 800px){
 
     header {
