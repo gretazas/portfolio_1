@@ -432,7 +432,6 @@ form>input {}
 table, th, td {
     border: 1px dashed #945b7ed7;
     padding: 20px;
-    margin-left: 100px;
 }
 
 .activities {
@@ -520,7 +519,7 @@ table, th, td {
         margin: 0;
     }
     .social-networks i {
-        margin: 0;
+        margin: 10px;
         padding: 0;
     }
 
