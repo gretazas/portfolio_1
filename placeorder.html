@@ -15,7 +15,7 @@
 
 <body>
 
-    
+
 
     <span id="welcome-picture-with-baloons">
         <img src="assets/images/main-index-photos/welcome.png" alt="Welcoming picture with baloons">
@@ -27,10 +27,10 @@
 
     <header>
         <div id="logo">
-            <h1 >PARTY WITH ALGY!</h1>
+            <h1>PARTY WITH ALGY!</h1>
         </div>
         <nav id="menu">
-            <ul >
+            <ul>
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -38,7 +38,7 @@
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="signup.html"  class="active">Place Order</a>
+                    <a href="signup.html" class="active">Place Order</a>
                 </li>
                 <li>
                     <a href="feedback.html">Feedback</a>
@@ -49,82 +49,86 @@
 
     <h2 class="messages">Welcome to the part when you are ready to place your order!</h2>
     <h2 class="messages">In order to do so you need to fill the form bellow.</h2>
-    <h2 class="messages">Before you proceed please do not hesitate to browse links provided on the left in order to choose your theme for the party.</h2>
+    <h2 class="messages">Before you proceed please do not hesitate to browse links provided on the left in order to
+        choose your theme for the party.</h2>
     <aside>
-      <h3>Links to help you choose your party theme:</h3>
-      <div class="dropdown">
-        <button class="dropbtn">List of themes:<i class="fa fa-caret-down" id="dropbtn"></i></button>
-        <div class="dropdown-content">
-          <a href="gallery_pirates.html" target="_blank">Pirates</a>
-          <a href="gallery_frozen.html" target="_blank">Frozen</a>
-          <a href="#" target="_blank">Circus Soiree</a>
-          <a href="#" target="_blank">Butterflies</a>
-          <a href="#" target="_blank">Talent Show</a>
-          <a href="#" target="_blank">Dinosaurs</a>
+        <h3>Links to help you choose your party theme:</h3>
+        <div class="dropdown">
+            <button class="dropbtn">List of themes:<i class="fa fa-caret-down" id="dropbtn"></i></button>
+            <div class="dropdown-content">
+                <a href="gallery_pirates.html" target="_blank">Pirates</a>
+                <a href="gallery_frozen.html" target="_blank">Frozen</a>
+                <a href="#" target="_blank">Circus Soiree</a>
+                <a href="#" target="_blank">Butterflies</a>
+                <a href="#" target="_blank">Talent Show</a>
+                <a href="#" target="_blank">Dinosaurs</a>
+            </div>
         </div>
-      </div>
-    </aside> 
+    </aside>
 
     <form action="" method="POST">
         <h2>Place an Order</h2>
         <div>
-			<label for="name">Your name</label><br>
-			<input id="name" type="text" name="first_name" placeholder="Your name">
-		</div>
+            <label for="name">Your name</label><br>
+            <input id="name" type="text" name="first_name" placeholder="Your name">
+        </div>
         <div>
-			<label for="surname">Your surname</label><br>
-			<input id="surname" type="text" name="surname" placeholder="Your surname">
-		</div>
+            <label for="surname">Your surname</label><br>
+            <input id="surname" type="text" name="surname" placeholder="Your surname">
+        </div>
         <div>
-			<label for="childsname">Childs name</label><br>
-			<input id="childsname" type="text" name="childsname" placeholder="Childs name">
-		</div>
-		<div>
-			<label for="email">Your email</label>
-			<input id="email" type="email" name="email" placeholder="Your email">
-		</div>
+            <label for="childsname">Childs name</label><br>
+            <input id="childsname" type="text" name="childsname" placeholder="Childs name">
+        </div>
+        <div>
+            <label for="email">Your email</label><br>
+            <input id="email" type="email" name="email" placeholder="Your email">
+        </div>
 
 
-    <div id="many_kids" required>
-        <p>How many kids are you planning to invite, around:</p>
-        <input type="radio" id="5-10" name="many_kids" value="5-10" required>
-        <label for="5-8">Between 5 and 10 &nbsp</label><br>
+        <div id="many_kids" required>
+            <label>How many kids are you planning to invite, around:</label><br>
+            <input type="radio" id="5-10" name="many_kids" value="5-10" required>
+            <label for="5-8">Between 5 and 10 &nbsp</label><br>
 
-        <input type="radio" id="10-15" name="many_kids" value="10-15">
-        <label for="10-15">Between 10 and 15</label><br>
+            <input type="radio" id="10-15" name="many_kids" value="10-15">
+            <label for="10-15">Between 10 and 15</label><br>
 
-        <input type="radio" id="15-20" name="many_kids" value="15-20">
-        <label for="15-20">Between 15 and 20</label><br>
+            <input type="radio" id="15-20" name="many_kids" value="15-20">
+            <label for="15-20">Between 15 and 20</label><br>
 
-        <input type="radio" id="20-30" name="many_kids" value="20-30">
-        <label for="20-30">Between 20 and 30</label>
-        <p><sub>*If you are planing party for more then 30 kids: </sub><a href="#"><sub><em>Contact Us</em></sub></a></p>
-    </div>
+            <input type="radio" id="20-30" name="many_kids" value="20-30">
+            <label for="20-30">Between 20 and 30</label><br>
+            <label for="contact"><sub>*If you are planing party for more then 30 kids: </sub><a href="#">
+                    <div class="tooltip"><sub><em>Contact Us</em></sub>
+                        <span class="tooltiptext">Contact Us</span>
+                    </div>
+                </a></label>
+        </div>
 
-   
 
-      <label for="themes"></label><br>
+        <label for="themes">Choose your party theme:</label><br>
         <select name="theme" id="theme" required>
-            <option value="pirates">Choose a theme:</option>
+            <option value="empty"></option>
             <option value="pirates">Pirates</option>
             <option value="frozen">Frozen</option>
             <option value="clown">Circus Soiree</option>
             <option value="butterflies">Butterflies</option>
             <option value="talent">Talent Show Party</option>
-            <option value="dinosaur">Dinosaur Jam</option> 
+            <option value="dinosaur">Dinosaur Jam</option>
         </select><br>
 
-        <label for="color">Your childs favorite color:</label>
-        <input type="color" id="color" name="color" value="#00ffff" placeholder="Your childs favorite color"/>
-        <br/>
+        <label for="color">Your child's favorite color:</label>
+        <input type="color" id="color" name="color" value="#00ffff" placeholder="Your childs favorite color" />
+        <br />
 
-        <label for="number">Your childs age:</label>
-        <input type="number" id="number" name="number" placeholder="Age" step="2" min="18" max="99"/>
-        <br/> 
+        <label for="number">Your child's age:</label>
+        <input type="number" id="number" name="number" placeholder="Age" step="2" min="18" max="99" />
+        <br />
 
-        <input type="submit" id ="submit" value="Submit">
+        <input type="submit" id="submit" value="Submit">
         <input type="reset" id="reset" value="Reset">
-    </div>
+        </div>
     </form>
 
     <h2 class="messages">Thank you from all our team for choosing us. Enjoy your party!</h2>

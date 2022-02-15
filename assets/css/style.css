@@ -6,13 +6,13 @@
     border: none;
 }
 
-p{
+p {
     font-size: 20px;
     font-family: Gideon Roman, sans-serif;
     color: #633a53d7;
-    margin: 60px;
     line-height: 40px;
 }
+
 #menu {
     font-size: x-large;
 }
@@ -246,7 +246,7 @@ a:hover {
     justify-content: center;
 }
 
-#party-boxes > div {
+#party-boxes>div {
     margin-top: 30px;
 }
 
@@ -375,7 +375,7 @@ footer {
     padding: 5px;
     text-decoration: none;
     display: block;
- 
+
 }
 
 .dropdown-content a:hover {
@@ -385,7 +385,7 @@ footer {
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;  
+    display: block;
     margin-left: 280px;
     background: linear-gradient(135deg, rgba(218, 165, 32, 0.4), rgba(32, 218, 190, 0.1));
 }
@@ -399,6 +399,11 @@ footer {
     min-width: 160px;
     height: 30px;
     border: 1px solid goldenrod;
+    margin-left: 45px;
+}
+
+#theme:hover  {
+    transform: scale(1.1);
 }
 
 .messages {
@@ -414,14 +419,35 @@ footer {
 form {
     box-sizing: border-box;
     background: linear-gradient(135deg, rgba(218, 165, 32, 0.4), rgba(32, 218, 190, 0.4));
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 800px;
     width: 30%;
-    padding: 40px;
+    padding: 30px;
     border: 2px solid #945b7ed7;
-    margin: 30px 0 60px 600px;
+    margin: 30px 0 60px 650px;
+}
+label {
+    margin: 25px 25px 25px 0px;
 }
 
+form div {
+    padding: 10px;
+}
+
+input {
+    font-size: 18px;
+    border: 2px solid #945b7ed7;
+    border-radius: 5px;
+}
+
+input:hover {
+    border: 3px solid #945b7ed7;
+    border-radius: 5px;
+}
+
+form input[type=radio]:hover {
+    transform: scale(1.5);
+}
 
 #submit {
     margin: 20px;
@@ -439,7 +465,9 @@ form {
     border-radius: 5px;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px dashed #945b7ed7;
     padding: 20px;
 }
@@ -448,13 +476,40 @@ table, th, td {
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 800px){
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+
+    height: 55px;
+    visibility: hidden;
+    width: 120px;
+    background-color: #945b7ed7;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#many_kids {
+    padding: 0;
+}
+@media screen and (max-width: 800px) {
 
     header {
         display: block;
         align-items: center;
     }
-    header ul{
+
+    header ul {
         display: block;
     }
 
@@ -462,7 +517,7 @@ table, th, td {
         margin: 0;
     }
 
-    h1{
+    h1 {
         font-size: 26px;
     }
 
@@ -476,7 +531,7 @@ table, th, td {
         align-items: center;
     }
 
-    #welcome-picture-with-baloons > img {
+    #welcome-picture-with-baloons>img {
         width: 100%;
         height: 300px;
         object-fit: cover;
@@ -519,7 +574,12 @@ table, th, td {
         border: none;
     }
 
-    #home-outer, #hero-image,#home-image, #invitation-image, #events-image, #nature-image {
+    #home-outer,
+    #hero-image,
+    #home-image,
+    #invitation-image,
+    #events-image,
+    #nature-image {
         border: none;
     }
 
@@ -528,6 +588,7 @@ table, th, td {
         line-height: 50px;
         margin: 0;
     }
+
     .social-networks i {
         margin: 10px;
         padding: 0;
@@ -539,14 +600,15 @@ table, th, td {
     }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
 
-    
+
     header {
         display: block;
         align-items: center;
     }
-    header ul{
+
+    header ul {
         display: block;
     }
 
@@ -554,7 +616,7 @@ table, th, td {
         margin: 0;
     }
 
-    h1{
+    h1 {
         font-size: 26px;
     }
 
@@ -568,7 +630,7 @@ table, th, td {
         align-items: center;
     }
 
-    #welcome-picture-with-baloons > img {
+    #welcome-picture-with-baloons>img {
         width: 100%;
         height: 300px;
         object-fit: cover;
@@ -611,7 +673,12 @@ table, th, td {
         border: none;
     }
 
-    #home-outer, #hero-image, #home-image, #invitation-image, #events-image, #nature-image {
+    #home-outer,
+    #hero-image,
+    #home-image,
+    #invitation-image,
+    #events-image,
+    #nature-image {
         border: none;
     }
 
@@ -620,13 +687,15 @@ table, th, td {
         margin: 0;
     }
 
-    #parties-outside, #indoor-parties, #house-parties {
+    #parties-outside,
+    #indoor-parties,
+    #house-parties {
         width: 380px;
     }
 
-    
 
-    
+
+
 
     .social-networks i {
         margin: 0;
