@@ -610,11 +610,19 @@ footer {
     }
 
     form {
-        margin: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    #feedback {
+        position: relative;
+        height: 70%;
         width: 100%;
     }
 
-    
+    form h3{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -710,10 +718,6 @@ footer {
         width: 380px;
     }
 
-
-
-
-
     .social-networks i {
         margin: 0;
         padding: 0;
@@ -722,6 +726,21 @@ footer {
     form {
         margin: 0;
         width: 100%;
+    }
+
+    form {
+        width: 100%;
+        align-items: center;
+    }
+
+    #feedback {
+        position: relative;
+        height: 70%;
+        width: 100%;
+    }
+
+    form h3{
+        text-align: center;
     }
 }
 }
