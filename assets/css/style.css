@@ -304,25 +304,6 @@ a:hover {
     background-position: center;
 }
 
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    display: flex;
-    justify-content: center;
-}
-
-.social-networks i {
-    font-size: 130%;
-    color: #633a53d7;
-    padding: 40px;
-}
-
-.social-networks i:hover {
-    color: #3edac5d7;
-}
-
 #images {
     clear: both;
     line-height: 0;
@@ -415,7 +396,6 @@ footer {
     color: #945b7ed7;
 }
 
-
 form {
     box-sizing: border-box;
     background: linear-gradient(135deg, rgba(218, 165, 32, 0.4), rgba(32, 218, 190, 0.4));
@@ -426,6 +406,7 @@ form {
     border: 2px solid #945b7ed7;
     margin: 30px 0 60px 650px;
 }
+
 label {
     margin: 25px 25px 25px 0px;
 }
@@ -435,6 +416,7 @@ form div {
 }
 
 input {
+    padding: 10px;
     font-size: 18px;
     border: 2px solid #945b7ed7;
     border-radius: 5px;
@@ -448,6 +430,15 @@ input:hover {
 form input[type=radio]:hover {
     transform: scale(1.5);
 }
+
+
+#many_kids label a:hover {
+    border-bottom: 1px solid rgb(71, 54, 11);
+    color: rgb(71, 54, 11);
+    font-weight: 600;
+    padding: 3px;
+}
+
 
 #submit {
     margin: 20px;
@@ -483,7 +474,7 @@ td {
 }
 
 .tooltip .tooltiptext {
-
+    font-size: 16px;
     height: 55px;
     visibility: hidden;
     width: 120px;
@@ -502,6 +493,26 @@ td {
 #many_kids {
     padding: 0;
 }
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks i {
+    font-size: 130%;
+    color: #633a53d7;
+    padding: 40px;
+}
+
+.social-networks i:hover {
+    color: #3edac5d7;
+}
+
 @media screen and (max-width: 800px) {
 
     header {
