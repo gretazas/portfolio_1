@@ -62,7 +62,7 @@ a:hover {
 }
 
 #hero-outer {
-    border: 3px solid goldenrod;
+    border: 2px solid goldenrod;
     width: 40%;
     height: 20%;
     display: block;
@@ -74,7 +74,7 @@ a:hover {
 }
 
 #hero-image {
-    border: 3px solid goldenrod;
+    border: 2px solid goldenrod;
     height: 400px;
     width: 100%;
     background: url('../images/main-index-photos/celebration.webp') no-repeat center center;
@@ -246,7 +246,6 @@ a:hover {
 
 #party-boxes>div {
     margin-top: 30px;
-    ;
 }
 
 #parties-outside:hover {
@@ -282,7 +281,7 @@ a:hover {
 #parties-outside {
     margin-bottom: 80px;
     height: 350px;
-    background-image: url("/assets/images/main-index-photos/ballons_outside.jpg");
+    background-image: url("../images/gallery-photos/gallery0.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
