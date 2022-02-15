@@ -375,15 +375,19 @@ footer {
     padding: 5px;
     text-decoration: none;
     display: block;
+ 
 }
 
 .dropdown-content a:hover {
     color: goldenrod;
     background-color: white;
+    border-radius: 5px;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: block;  
+    margin-left: 280px;
+    background: linear-gradient(135deg, rgba(218, 165, 32, 0.4), rgba(32, 218, 190, 0.1));
 }
 
 .dropdown:hover .dropbtn {
