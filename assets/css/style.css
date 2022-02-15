@@ -297,7 +297,7 @@ a:hover {
 #house-parties {
     margin-bottom: 80px;
     height: 350px;
-    background-image: url("/assets/images/main-index-photos/sunset_baloons.webp");
+    background-image: url("../images/main-index-photos/sunset_baloons.webp");
     background-repeat: no-repeat;
     background-position: center;
 }
