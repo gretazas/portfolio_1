@@ -7,6 +7,7 @@
 }
 
 p {
+    padding: 20px;
     font-size: 20px;
     font-family: Gideon Roman, sans-serif;
     color: #633a53d7;
@@ -627,7 +628,6 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-
     header {
         display: block;
         align-items: center;
@@ -718,13 +718,17 @@ footer {
         width: 380px;
     }
 
+    .dropbtn {
+        float: left;
+    }
+    
     .social-networks i {
         margin: 0;
         padding: 0;
     }
 
     form {
-        margin: 0;
+        margin: 50px 0;
         width: 100%;
     }
 
