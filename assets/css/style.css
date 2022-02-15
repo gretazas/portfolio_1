@@ -281,7 +281,7 @@ a:hover {
 #parties-outside {
     margin-bottom: 80px;
     height: 350px;
-    background-image: url("../images/gallery-photos/gallery0.jpg");
+    background-image: url("../images/main-index-photos/ballons_outside.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -289,7 +289,7 @@ a:hover {
 #indoor-parties {
     margin-bottom: 80px;
     height: 350px;
-    background-image: url("/assets/images/main-index-photos/baloons_inside.jpg");
+    background-image: url("../images/main-index-photos/baloons_inside.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
