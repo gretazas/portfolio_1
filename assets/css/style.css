@@ -384,7 +384,7 @@ a:hover {
     margin-left: 45px;
 }
 
-#theme:hover  {
+#theme:hover {
     transform: scale(1.1);
 }
 
@@ -408,7 +408,7 @@ form {
     margin: 30px 0 60px 650px;
 }
 
-form h3{
+form h3 {
     line-height: 40px;
 }
 
@@ -501,10 +501,13 @@ td {
 
 footer {
     height: 150px;
+    display: inline-block;
+    width: 100%;
 }
 
 .social-networks {
     display: flex;
+    bottom: 0;
     justify-content: center;
 }
 
@@ -521,6 +524,45 @@ footer {
 #color {
     padding: 0;
 }
+
+#info h2,
+#info table {
+    margin: 20px;
+    float: left;
+}
+
+#info {
+    display: flex;
+}
+
+#hours,
+#staff {
+    width: 25%;
+}
+
+#contact {
+    width: 30%;
+    height: 20%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin:10px;
+}
+
+#staff {
+    float: right;
+}
+
+#info td {
+    border: none;
+}
+
+#info th {
+    border: none;
+    border-bottom: 1px solid #633a53d7;
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -625,7 +667,7 @@ footer {
         width: 100%;
     }
 
-    form h3{
+    form h3 {
         text-align: center;
     }
 }
@@ -725,7 +767,7 @@ footer {
     .dropbtn {
         float: left;
     }
-    
+
     .social-networks i {
         margin: 0;
         padding: 0;
@@ -747,7 +789,7 @@ footer {
         width: 100%;
     }
 
-    form h3{
+    form h3 {
         text-align: center;
     }
 }
