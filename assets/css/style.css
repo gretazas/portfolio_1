@@ -292,7 +292,7 @@ a:hover {
 #indoor-parties {
     margin-bottom: 80px;
     height: 350px;
-    background-image: url("/assets/images/main-index-photos/baloons_inside.jpg");
+    background-image: url("../images/main-index-photos/baloons_inside.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
