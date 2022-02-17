@@ -1,9 +1,25 @@
-<h1>Welcome to my Party With Algi web page!!!</h1>
+<div id="top"></div>
+
+
+<div align="center">
+
+  <h1 align="center">Welcome to PLAY WITH ALGI</h1>
+
+  <p align="center">
+    <br />
+    <a href="https://gretazas.github.io/portfolio_1/"><strong>Explore my web page »</strong></a>
+  </p>
+</div>
+
+## About The Project
+
 
 This is my very first page that I actually finished to the point where I can share my web page with friends, family and coworkers. And I know for sure that there will be many more in the future. Mostly I enjoyed creating web page appearance and I was trying to imagine that I am helping real person to create their business that they love representation. 
 The biggest challenge of all was responsive web design, probably because of lack of experience. I believe it will be way easier in the future with practice.
 I had great time to practice form elements, use divs, spans, sections. Learning to apply different css properties and their values.  
 I chose this topic on the page of my love for kids and enjoyment spending time with some great activities. That also reminded me of my time spent in “Lithuanian language Sunday school”, where i was playing Lithuanisan games and teaching my native lituanian language kids between 6-10 year old.
+
+### Built With
 
 Languages I Used:
 
