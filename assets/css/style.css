@@ -18,6 +18,10 @@ p {
     font-size: x-large;
 }
 
+#menu li {
+    right: 0;
+}
+
 header #menu {
     justify-content: flex-end;
 }
@@ -526,13 +530,15 @@ footer {
 }
 
 #info {
-    position: relative;
+    display: flex;
+    flex-direction: row;
     height: 400px;
 }
 
-#contact {
-    position: absolute;
-    left: 200px;
+#contact, #staff, #hours {
+    flex: auto;
+    width: 33%;
+    margin: 80px;
 }
 
 #contact span {
@@ -541,16 +547,6 @@ footer {
 
 #contact h2 {
     margin: 20px 0;
-}
-
-#staff {
-    position: absolute;
-    right: 100px;
-}
-
-#hours {
-    position: absolute;
-    margin: 0 750px;
 }
 
 #info td {
@@ -671,34 +667,13 @@ footer {
     }
 
     #info {
-        display: flex;
-        height: 700px;
-        align-items: center;
-    }
-
-    #hours{
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-top: 200px;
-    }
-
-    #contact {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #staff {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 }
 
 @media screen and (max-width: 1200px) {
     #info {
-        
+        flex-direction: column;
     }
 
     header {
@@ -803,13 +778,10 @@ footer {
     form {
         margin: 50px 0;
         width: 100%;
-    }
-
-    form {
-        width: 100%;
         align-items: center;
     }
 
+   
     #feedback {
         position: relative;
         height: 70%;
@@ -819,5 +791,13 @@ footer {
     form h3 {
         text-align: center;
     }
+    
 }
+
+
+@media screen and (max-width: 1679px) {
+    #party-boxes span {
+        margin: 0 100px;
+    }
+
 }
