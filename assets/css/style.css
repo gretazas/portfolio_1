@@ -749,7 +749,7 @@ td {
     }
 
     form {
-        width: 50%;
+        width: 40%;
     }
 
     form h3 {
@@ -759,6 +759,7 @@ td {
     #info {
         flex-direction: column;
         align-items: center;
+        justify-content: normal;
     }
 
 }
@@ -778,8 +779,22 @@ td {
         flex-direction: column;
         flex-wrap: wrap;
         align-content: space-around;
+        font-size: 18px;
     }
     form div {
         padding: 2px 0 0 0;
+    }
+
+    form a {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    #contact, #staff, #hours {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        min-width: 20%;
+        margin: 100px;
     }
 }
