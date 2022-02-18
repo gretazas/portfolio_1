@@ -292,6 +292,7 @@ a:hover {
     background-image: url("../images/main-index-photos/ballons_outside.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    transform: scaleX(-1);
 }
 
 #images {
@@ -516,16 +517,24 @@ td {
     display: flex;
     flex-direction: row;
     height: 400px;
+    align-items: baseline;
+    justify-content: space-around;
 }
 
 #contact, #staff, #hours {
-    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
     width: 33%;
-    margin: 80px;
+    margin: 100px;
 }
 
 #contact span {
     border-bottom: 1px dashed #633a53d7;
+}
+
+#contact {
+        margin-left: 200px;
 }
 
 #contact h2 {
@@ -544,26 +553,12 @@ td {
 
 @media screen and (max-width: 950px) {
 
-    header ul {
-        display: block;
-    }
-
-    #menu {
-        margin: 0;
-    }
-
     h1 {
         font-size: 26px;
     }
 
     #images {
         column-count: 1;
-    }
-
-    #party-boxes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     #welcome-picture-with-baloons > img {
@@ -618,12 +613,6 @@ td {
         border: none;
     }
 
-
-    #party-boxes span {
-        line-height: 50px;
-        margin: 0;
-    }
-
     .social-networks i {
         margin: 10px;
         padding: 0;
@@ -639,9 +628,6 @@ td {
         text-align: center;
     }
 
-    #info {
-        flex-direction: column;
-    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -665,6 +651,11 @@ td {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
+    }
+
+    #party-boxes span {
+        margin: 30px auto;
     }
 
     #welcome-picture-with-baloons > img {
