@@ -36,15 +36,9 @@ h3 {
     line-height: 60px;
 }
 
-li {
-    margin: 20px;
-}
-
 header,
 ul {
-    display: flex;
     list-style-type: none;
-    margin: 0;
 }
 
 h1,
@@ -447,7 +441,6 @@ form input[type=radio]:hover {
     font-weight: 600;
     padding: 3px;
 }
-
 
 #submit {
     margin: 20px;
