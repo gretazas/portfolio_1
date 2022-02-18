@@ -14,31 +14,22 @@ p {
     line-height: 40px;
 }
 
-#menu {
-    font-size: x-large;
-}
-
-#menu li {
-    right: 0;
-}
-
-header #menu {
-    justify-content: flex-end;
-}
-
 #logo,
 a,
 h3 {
-    font-size: 20px;
+    font-size: 26px;
     font-family: Gideon Roman, sans-serif;
     color: #633a53d7;
-    margin: 10px;
+    margin: 15px;
     line-height: 60px;
 }
 
 header,
 ul {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
+    padding: 20px;
 }
 
 h1,
@@ -56,7 +47,7 @@ a:hover {
     color: #3edac5d7;
 }
 
-#welcome-picture-with-baloons>img {
+#welcome-picture-with-baloons > img {
     position: relative;
     z-index: -1;
     width: 100%;
@@ -245,7 +236,7 @@ a:hover {
     justify-content: center;
 }
 
-#party-boxes>div {
+#party-boxes > div {
     margin-top: 30px;
 }
 
