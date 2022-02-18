@@ -640,11 +640,6 @@ footer {
         padding: 0;
     }
 
-    form {
-        width: 100%;
-        align-items: center;
-    }
-
     #feedback {
         position: relative;
         height: 70%;
@@ -661,10 +656,7 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-    #info {
-        flex-direction: column;
-    }
-
+   
     header {
         display: block;
         align-items: center;
@@ -781,12 +773,18 @@ footer {
         text-align: center;
     }
     
+    #info {
+        flex-direction: column;
+    }
+
 }
 
 
-@media screen and (max-width: 1679px) {
+@media screen and (max-width: 1879px) {
     #party-boxes span {
-        margin: 0 100px;
+        margin: 50px;
     }
-
+    #party-boxes div {
+        margin: 0 20px;
+    }
 }
