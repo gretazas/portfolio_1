@@ -550,15 +550,42 @@ td {
     border-bottom: 1px solid #633a53d7;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 
     form {
-     width: 90%;
+     min-width: 85%;
+     float: right;
     }
 
     .dropbtn {
         margin-left: 70px;
-        width: 350px;
+        width: 330px;
+    }
+    .social-networks i {
+        font-size: 90%;
+    }
+
+    table, th, td {
+        border: 1px dashed #945b7ed7;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        margin-left: 50px;
+    }
+
+    #logo, h3 {
+        font-size: 18px;
+        margin: 0;
+        margin-left: 55px;
+    }
+
+    .messages {
+        margin-left: 55px;
     }
 }
 
