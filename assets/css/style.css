@@ -550,11 +550,23 @@ td {
     border-bottom: 1px solid #633a53d7;
 }
 
+@media screen and (max-width: 600px) {
+
+    form {
+     width: 90%;
+    }
+
+    .dropbtn {
+        margin-left: 70px;
+        width: 350px;
+    }
+}
+
 
 @media screen and (max-width: 950px) {
 
     h1 {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     #images {
@@ -616,6 +628,9 @@ td {
     .social-networks i {
         margin: 10px;
         padding: 0;
+    }
+    .social-networks {
+        bottom: 5px;
     }
 
     #feedback {
