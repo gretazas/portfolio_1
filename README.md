@@ -23,6 +23,8 @@ In the first index.html page I created a navigation menu and only three options 
  
 I chose this topic on the page of my love for kids and enjoyment spending time with some great activities. That also reminded me of my time spent in “Lithuanian language Sunday school”, where i was playing Lithuanisan games and teaching my native lituanian language kids between 6-10 year old.
 
+![Alt responsive design](/assets/images/main-index-photos/IMG-4890.PNG "Responsive design")
+
 
 ### Built with intention to practise use:
 
