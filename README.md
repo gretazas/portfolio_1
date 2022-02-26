@@ -22,6 +22,7 @@ I had great time to practice form elements, use divs, spans, sections. Learning 
 In the first index.html page I created a navigation menu and only three options to decide where the party should take place. It was my intention not to confuse customers with information overload. After that they are guided to take a step to Place Order. On the page Place Order I have located a button with an indicator to open a list in order to choose a theme for the party. Every list item would open in a new tab so after they decide which theme is great for their kids party,  they could easily go back to my original page to fill out the form for the party.
  
 I chose this topic on the page of my love for kids and enjoyment spending time with some great activities. That also reminded me of my time spent in “Lithuanian language Sunday school”, where i was playing Lithuanisan games and teaching my native lituanian language kids between 6-10 year old.
+Next in the future i would like to add JavaScript. At the moment picture hover ( outside, inside, house parties) does not make much sence. Later i would add eventListener with click event to direct costumer to the new page. At the moment the title above does the job.
 
 ![Alt responsive design](/assets/images/main-index-photos/IMG-4890.PNG "Responsive design")
 
