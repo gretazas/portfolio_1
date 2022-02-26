@@ -14,6 +14,8 @@ p {
     line-height: 40px;
 }
 
+/* Header including menu, logo and nav */
+
 #logo,
 a,
 h3 {
@@ -47,7 +49,10 @@ a:hover {
     color: #3edac5d7;
 }
 
-#welcome-picture-with-baloons > img {
+
+/* Top two welcoming pictures */
+
+#welcome-picture-with-baloons>img {
     position: relative;
     z-index: -1;
     width: 100%;
@@ -231,12 +236,15 @@ a:hover {
     }
 }
 
+/* Three pictures in order to choose the party type(index.html) */
+
+
 #party-boxes {
     display: flex;
     justify-content: center;
 }
 
-#party-boxes > div {
+#party-boxes>div {
     margin-top: 30px;
 }
 
@@ -305,6 +313,9 @@ a:hover {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+
+/* Button in Place Order page */
 
 #dropbtn {
     margin-left: 20px;
@@ -378,6 +389,8 @@ a:hover {
     transform: scale(1.1);
 }
 
+/* Form in Place Order page */
+
 .messages {
     padding: 1px;
     margin: 3px;
@@ -395,7 +408,7 @@ form {
     width: 30%;
     padding: 30px;
     border: 2px solid #945b7ed7;
-    margin:60px auto;
+    margin: 60px auto;
 }
 
 form textarea {
@@ -455,17 +468,20 @@ form input[type=radio]:hover {
     border-radius: 5px;
 }
 
-table,
-th,
-td {
-    border: 1px dashed #945b7ed7;
-    padding: 20px;
+#many_kids {
+    padding: 0;
+}
+
+#color {
+    padding: 0;
 }
 
 .activities {
     display: flex;
     justify-content: center;
 }
+
+/* Tooltip decoration */
 
 .tooltip {
     position: relative;
@@ -492,9 +508,7 @@ td {
     visibility: visible;
 }
 
-#many_kids {
-    padding: 0;
-}
+/* Footer */
 
 .social-networks {
     display: flex;
@@ -512,8 +526,13 @@ td {
     color: #3edac5d7;
 }
 
-#color {
-    padding: 0;
+/* Tablles at the bottom of index.html and placeorder.html */
+
+table,
+th,
+td {
+    border: 1px dashed #945b7ed7;
+    padding: 20px;
 }
 
 #info {
@@ -524,7 +543,9 @@ td {
     justify-content: space-around;
 }
 
-#contact, #staff, #hours {
+#contact,
+#staff,
+#hours {
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -537,7 +558,7 @@ td {
 }
 
 #contact {
-        margin-left: 200px;
+    margin-left: 200px;
 }
 
 #contact h2 {
@@ -553,22 +574,28 @@ td {
     border-bottom: 1px solid #633a53d7;
 }
 
+
+    /* Media screen max-width 650px */
+
 @media screen and (max-width: 650px) {
 
     form {
-     min-width: 85%;
-     float: right;
+        min-width: 85%;
+        float: right;
     }
 
     .dropbtn {
         margin-left: 70px;
         width: 330px;
     }
+
     .social-networks i {
         font-size: 90%;
     }
 
-    table, th, td {
+    table,
+    th,
+    td {
         border: 1px dashed #945b7ed7;
         padding: 10px;
     }
@@ -581,7 +608,8 @@ td {
         margin-left: 50px;
     }
 
-    #logo, h3 {
+    #logo,
+    h3 {
         font-size: 18px;
         margin: 0;
         margin-left: 55px;
@@ -593,6 +621,8 @@ td {
 }
 
 
+    /* Media screen max-width 950px */
+
 @media screen and (max-width: 950px) {
 
     h1 {
@@ -603,7 +633,10 @@ td {
         column-count: 1;
     }
 
-    #welcome-picture-with-baloons > img {
+
+    /* Welcoming pictures */
+
+    #welcome-picture-with-baloons>img {
         width: 100%;
         height: 300px;
         object-fit: cover;
@@ -655,13 +688,18 @@ td {
         border: none;
     }
 
+    /* Footer */
+
     .social-networks i {
         margin: 10px;
         padding: 0;
     }
+
     .social-networks {
         bottom: 5px;
     }
+
+    /* Forms */
 
     #feedback {
         position: relative;
@@ -675,22 +713,84 @@ td {
 
 }
 
+
+    /* Media screen max-width 1200px */
+
 @media screen and (max-width: 1200px) {
 
-    header, ul{ 
+    header,
+    ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: space-evenly ;
+        justify-content: space-evenly;
         align-content: space-around;
     }
+
     h1 {
         font-size: 26px;
     }
 
+    /* Welcoming pictures */
+
     #images {
         column-count: 1;
     }
+
+    #welcome-picture-with-baloons>img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    #hero-outer {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+        margin-top: -250px;
+        border: none;
+    }
+
+    #events-outer {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+        margin-top: -250px;
+        border: none;
+    }
+
+    #invitation-outer {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+        margin-top: -250px;
+        border: none;
+    }
+
+    #nature-outer {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+        margin-top: -250px;
+        border: none;
+    }
+
+    #home-outer,
+    #hero-image,
+    #home-image,
+    #invitation-image,
+    #events-image,
+    #nature-image {
+        border: none;
+    }
+
+
+    /* Tree pictures at front of index.html */
 
     #party-boxes {
         display: flex;
@@ -703,57 +803,6 @@ td {
         margin: 30px auto;
     }
 
-    #welcome-picture-with-baloons > img {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        object-position: bottom;
-    }
-
-    #hero-outer {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        object-position: bottom;
-        margin-top: -250px;
-        border: none;
-    }
-
-    #events-outer {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        object-position: bottom;
-        margin-top: -250px;
-        border: none;
-    }
-
-    #invitation-outer {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        object-position: bottom;
-        margin-top: -250px;
-        border: none;
-    }
-
-    #nature-outer {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        object-position: bottom;
-        margin-top: -250px;
-        border: none;
-    }
-
-    #home-outer,
-    #hero-image,
-    #home-image,
-    #invitation-image,
-    #events-image,
-    #nature-image {
-        border: none;
-    }
 
     #party-boxes span {
         line-height: 50px;
@@ -766,17 +815,21 @@ td {
         width: 380px;
     }
 
+    /* Button in Place Order */
+
     .dropbtn {
         float: left;
     }
 
+    /* Footer */
+
     .social-networks {
-      flex-direction: column;
-      flex-wrap: nowrap;
-      position: fixed;
-      padding: 0;
-      top : 280px;
-      
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: fixed;
+        padding: 0;
+        top: 280px;
+
     }
 
     .social-networks i {
@@ -786,6 +839,8 @@ td {
     footer {
         margin: 0;
     }
+
+    /* Forms */
 
     #feedback {
         position: relative;
@@ -800,7 +855,9 @@ td {
     form h3 {
         text-align: center;
     }
-    
+
+    /* Tables at the bottom of index.html and placeorder.html */
+
     #info {
         flex-direction: column;
         align-items: center;
@@ -809,14 +866,21 @@ td {
 
 }
 
+    /* Media sceen max-width 1901px */
 
 @media screen and (max-width: 1901px) {
+
+    /* Three pictures in front of index.html */
+
     #party-boxes span {
         margin: 50px;
     }
+
     #party-boxes div {
         margin: 0 20px;
     }
+
+    /* Form */
 
     form {
         width: 40%;
@@ -826,6 +890,7 @@ td {
         align-content: space-around;
         font-size: 18px;
     }
+
     form div {
         padding: 2px 0 0 0;
     }
@@ -835,7 +900,12 @@ td {
         font-size: 16px;
     }
 
-    #contact, #staff, #hours {
+    /* Tables at the bottom of index.html and placeorder.html */
+
+
+    #contact,
+    #staff,
+    #hours {
         display: flex;
         flex-direction: column;
         align-items: baseline;
