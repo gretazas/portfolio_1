@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap' rel='stylesheet');
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 p {
     padding: 20px;
     font-size: 20px;
-    font-family: Gideon Roman, sans-serif;
+    font-family: 'Gideon Roman, sans-serif';
     color: #633a53d7;
     line-height: 40px;
 }
@@ -20,7 +20,7 @@ p {
 a,
 h3 {
     font-size: 26px;
-    font-family: Gideon Roman, sans-serif;
+    font-family: 'Gideon Roman, sans-serif';
     color: #633a53d7;
     margin: 15px;
     line-height: 60px;
@@ -272,7 +272,7 @@ a:hover {
 #party-boxes span {
     padding: 5px;
     margin: 0 200px;
-    font-family: Gideon Roman, sans-serif;
+    font-family: 'Gideon Roman, sans-serif';
     font-size: x-large;
     color: #3edac5d7;
     line-height: 75px;
@@ -395,7 +395,7 @@ a:hover {
     padding: 1px;
     margin: 3px;
     text-align: center;
-    font-family: Gideon Roman, sans-serif;
+    font-family: 'Gideon Roman, sans-serif';
     font-size: x-large;
     color: #945b7ed7;
 }
@@ -404,7 +404,6 @@ form {
     box-sizing: border-box;
     background: linear-gradient(135deg, rgba(218, 165, 32, 0.4), rgba(32, 218, 190, 0.4));
     font-size: 20px;
-    font-weight: 800px;
     width: 30%;
     padding: 30px;
     border: 2px solid #945b7ed7;
